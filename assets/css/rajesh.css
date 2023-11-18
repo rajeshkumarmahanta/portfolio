@@ -1,0 +1,66 @@
+.zoom-hover:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.zoom-hover{
+    width: 100%;
+    transition: all .3s ease-in-out;
+    display: block !important;
+    cursor: pointer;
+}
+.zoom-hover-frame{
+    margin: auto;
+    margin-top: 10px;
+    border: 8px solid #363240;
+    border-radius:100%;
+    width: 100px;
+    height:100px;
+    overflow: hidden;
+}
+
+.profile img {
+    margin: 0 !important;
+    width: 120px;
+    border: 0px !important;
+  }
+  .zoom-rajesh-hover{
+    width: 100%;
+    transition: all .3s ease-in-out;
+    display: block !important;
+  }
+  .zoom-rajesh-hover:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+  .zoom-photo-rjs{
+    width: 304px;
+    height:304px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .modal-body{
+    height: 440px !important; 
+    width:432px !important;
+  }
+  .modal-content{
+    width:87% !important;
+  }
+  .modal-img{
+    width: 100% !important;
+    height: 100% !important;
+}
+@media only screen and (max-width: 600px) {
+  .modal-body {
+    height: 365px !important;
+  
+    width: 342px !important;
+  }
+  }
+
+  /* gallery page css */
+  .header-nav{
+    background: transparent;
+  }
+  .body-gallery{
+    background: rgb(238,174,202);
+  }
